@@ -1,0 +1,51 @@
+h1 {
+  color: #f55;
+  font-size: 4em;
+}
+
+/* h1::after {
+  content: ' world';
+  color: #fff;
+  background-color: #000;
+}
+
+h1::before {
+  content: 'hey ';
+} */
+
+/* h1::after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-color: #1d29d6;
+  border-radius: 50%;
+  display: inline-block;
+} */
+
+/* .heading::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 0.8em;
+  background-color: #000;
+  margin: 0 3px;
+  border-radius: 5px;
+} */
+h1::before {
+  content: '\2600';
+}
+
+/* p::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #f11;
+  margin-right: 3px;
+} */
+
+p::before {
+  content: '\261E';
+  margin-right: 3px;
+  color: #f11;
+}
